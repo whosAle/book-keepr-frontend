@@ -1,4 +1,6 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+#Book Keepre
+
+A react app that documents and tracks books.
 
 ## Install / Running Project
 
