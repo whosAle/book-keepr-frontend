@@ -1,8 +1,13 @@
 import React, { useState } from 'react';
 
 const Book = (props) => {
+  const { book } = props;
 
-  return();
+  return(
+    <div>
+      <h1>{book.title}</h1>
+    </div>
+  );
 
 }
 
