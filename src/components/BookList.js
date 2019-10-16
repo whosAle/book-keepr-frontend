@@ -13,7 +13,11 @@ const BookList = (props) => {
 
   const { books } = props;
 
-  return();
+  const renderBook = () => booksData.map(book => <Book book={book} key={book.isbn}/>)
+
+  return(
+    {renderBook()}
+  );
 
 }
 
